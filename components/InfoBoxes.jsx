@@ -1,7 +1,6 @@
-import React from "react";
-import InfoBox from "./InfoBox";
+import { InfoBox } from "./InfoBox";
 
-const InfoBoxes = () => {
+export const InfoBoxes = () => {
   return (
     <section>
       <div className="container-xl lg:container m-auto">
@@ -38,5 +37,3 @@ const InfoBoxes = () => {
     </section>
   );
 };
-
-export default InfoBoxes;

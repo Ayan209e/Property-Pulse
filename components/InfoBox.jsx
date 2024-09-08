@@ -1,6 +1,4 @@
-import React from "react";
-
-const InfoBox = ({
+export const InfoBox = ({
   heading,
   backgroundColor = "bg-gray-100",
   children,
@@ -20,5 +18,3 @@ const InfoBox = ({
     </div>
   );
 };
-
-export default InfoBox;

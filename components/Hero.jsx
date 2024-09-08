@@ -1,6 +1,4 @@
-import React from 'react'
-
-const Hero = () => {
+export const Hero = () => {
   return (
     <section className="bg-blue-700 py-20 mb-4">
       <div
@@ -56,5 +54,3 @@ const Hero = () => {
     </section>
   )
 }
-
-export default Hero

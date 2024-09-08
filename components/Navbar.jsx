@@ -1,13 +1,13 @@
 "use client";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import logo from "@/assets/images/logo-white.png";
-import profileDefault from "@/assets/images/profile.png";
 import { FaGoogle } from "react-icons/fa";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
+import logo from "../assets/images/logo-white.png";
+import profileDefault from "../assets/images/profile.png";
 
-const Navbar = () => {
+export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -245,5 +245,3 @@ const Navbar = () => {
     </nav>
   );
 };
-
-export default Navbar;
